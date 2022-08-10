@@ -4,7 +4,7 @@ import css from "../styles/Footer.module.css";
 import Image from "next/image";
 import Logo from "../assets/Logo.png";
 
-export default function () {
+export default function Footer() {
   return (
     <div className={css.container}>
       <span>ALL RIGHTS RESERVED</span>
